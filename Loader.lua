@@ -50,7 +50,7 @@ Parvus.Games = {
     ["2809202155"] = {
         Name = "Your Bizarre Adventure",
         Script = Parvus.Debug and readfile("Parvus/Games/Watermark.lua")
-        or game:HttpGetAsync("https://raw.githubusercontent.com/crabjpg/bingus/main/Watermark.lua")
+        or game:HttpGetAsync("https://raw.githubusercontent.com/crabjpg/bingus/main/Watermark%20BETA.lua")
     }
 }
 
