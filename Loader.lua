@@ -47,6 +47,11 @@ Parvus.Games = {
         Script = Parvus.Debug and readfile("Parvus/Games/ST.lua")
         or game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Games/ST.lua")
     }
+    ["2809202155"] = {
+        Name = "Your Bizarre Adventure",
+        Script = Parvus.Debug and readfile("Parvus/Games/Watermark.lua")
+        or game:HttpGetAsync("https://raw.githubusercontent.com/crabjpg/bingus/main/Watermark.lua")
+    }
 }
 
 local PlayerService = game:GetService("Players")
